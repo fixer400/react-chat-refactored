@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is a refactored https://github.com/fixer400/react-chat. I rewrote it by hooks with redux toolkit, and it will use ant design in the future. Backend is not changed
+This project is a refactored https://github.com/fixer400/react-chat. I rewrote it by hooks with redux toolkit, and it will use the ant design in the future. Backend is not changed
 
 ## Available Scripts
 
