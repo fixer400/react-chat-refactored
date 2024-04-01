@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+### Information
 
 This project is a refactored https://github.com/fixer400/react-chat. I rewrote it by hooks with redux toolkit, and it will use the ant design in the future. Backend is not changed
 
@@ -13,6 +13,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `cd server && node server.js`
+
+Runs the backend node.js server
 
 ### `npm test`
 
