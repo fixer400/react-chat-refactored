@@ -1,0 +1,47 @@
+.chat{
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.users{
+    background-color: black;
+    color: white;
+    border-right: 2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 200px;
+}
+
+.messages{
+    overflow: scroll;
+    height: 100%;
+    /*background-color: #03050f10;*/
+    background: url('/public/OJ1Wv26g4VM.jpg') no-repeat;
+    background-size: cover;
+}
+
+.messages::-webkit-scrollbar{
+    display: none;
+}
+
+.action input, .action button{
+    height: 50px;
+}
+
+.action button {
+    width: 15%;
+}
+
+.action input{
+    width: 85%;
+    padding-left: 5px;
+}
+
+
+
