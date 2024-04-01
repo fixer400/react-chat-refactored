@@ -3,13 +3,13 @@
     height: 100%;
     display: flex;
 }
-.main{
+.chat__main{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.users{
+.chat__users{
     background-color: black;
     color: white;
     border-right: 2px solid black;
@@ -18,7 +18,7 @@
     max-width: 200px;
 }
 
-.messages{
+.chat__messages{
     overflow: scroll;
     height: 100%;
     /*background-color: #03050f10;*/
@@ -26,19 +26,23 @@
     background-size: cover;
 }
 
-.messages::-webkit-scrollbar{
+.chat__messages::-webkit-scrollbar{
     display: none;
 }
 
-.action input, .action button{
+.chat__action{
     height: 50px;
 }
 
-.action button {
+.chat__action input, .chat__action button{
+    height: 100%;
+}
+
+.chat__action button {
     width: 15%;
 }
 
-.action input{
+.chat__action input{
     width: 85%;
     padding-left: 5px;
 }

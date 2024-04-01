@@ -16,17 +16,15 @@ export default function TextSendForm() {
   }
 
   return (
-    <div className="chat__action">
-      <form onSubmit={(event) => sendMessage(event)}>
-        <input
-          type="text"
-          maxLength="200"
-          className="chat__input"
-          onChange={handleChange}
-          value={text}
-        />
-        <button type="submit">SEND</button>
-      </form>
-    </div>
+    <form className="chat__action" onSubmit={(event) => sendMessage(event)}>
+      <input
+        type="text"
+        maxLength="200"
+        className="chat__input"
+        onChange={handleChange}
+        value={text}
+      />
+      <button type="submit">SEND</button>
+    </form>
   );
 }
